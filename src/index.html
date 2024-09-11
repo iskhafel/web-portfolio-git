@@ -4,14 +4,174 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Faishal Makarim</title>
   <link rel="stylesheet" href="./styles/output.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    * {
+      font-family: "Poppins", sans-serif;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Web Portfolio</h1>
-  <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestias delectus, dignissimos, eum consequuntur
-    nesciunt, omnis quidem quos earum quo adipisci. Temporibus nisi, tempore quasi officia sint optio quis labore.</h2>
+  <!-- NAVBAR -->
+  <nav class="hidden text-white bg-gray-800 lg:block">
+    <div class="container flex items-center justify-between px-4 py-4 mx-auto">
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 bg-white rounded-full">
+          <img src="./assets/icon/code-circle-svgrepo-com.svg" alt="" class="object-contain w-full h-full">
+        </div>
+      </div>
+      <ul class="flex gap-6">
+        <li><a href="#summary" class="hover:underline">Summary</a></li>
+        <li><a href="#experience" class="hover:underline">Experience</a></li>
+        <li><a href="#education" class="hover:underline">Education</a></li>
+        <li><a href="#skills" class="hover:underline">Skills</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- NAVBAR -->
+
+  <!-- HEADER -->
+  <header class="py-12 text-white bg-gray-800">
+    <div class="container flex items-center px-4 mx-auto">
+      <img src="./assets/img/pasfoto-removebg-preview-removebg-preview.png" alt="Profile Photo"
+        class="w-32 h-32 mr-6 rounded-full">
+      <div>
+        <h1 class="text-xl font-bold">Faishal Makarim</h1>
+        <p class="mt-2 text-3xl">Software Engineer</p>
+        <p class="mt-2 text-lg">Based in Bekasi, ID</p>
+        <div class="flex flex-row gap-2">
+          <a href="www.linkedin.com/in/faishalmakarim">
+            <img src="./assets/icon/174857.png" class="w-6 mt-2 border border-gray-600" alt="">
+          </a>
+          <a href="#">
+            <img src="./assets/icon/facebook.png" class="w-6 mt-2 border border-gray-600" alt="">
+          </a>
+          <a href="#">
+            <img src="./assets/icon/Instagram_logo_2022.svg" class="w-6 mt-2 border border-gray-600" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- HEADER -->
+
+  <!-- MAIN CONTENT -->
+  <main class="container px-4 py-8 mx-auto space-y-8">
+    <!-- SUMMARY -->
+    <section id="summary">
+      <h2 class="mb-4 text-2xl font-bold">Summary</h2>
+      <p class="text-justify">
+        A web developer enthusiast with almost 1 year of experience. Experienced in designing and developing websites
+        using HTML, CSS, and JavaScript. Proficient in managing cloud infrastructures using Google Cloud Platform (GCP).
+      </p>
+      <p class="mt-4 text-justify">
+        Also an aspiring entry-level junior Front End Web Developer eager to launch his career in the tech industry. His
+        goal is to join a team where he can contribute to building responsive and visually appealing websites, while
+        continuously enhancing his skills in web development tools and frameworks. Faishal is motivated to learn,
+        collaborate, and grow professionally as he embarks on this new journey.
+      </p>
+      <p class="mt-4 text-justify">
+        Currently pursuing his passion by attending Front End Web Development Bootcamp in Dibimbing.
+      </p>
+    </section>
+    <!-- SUMMARY -->
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="p-6 rounded-lg shadow-md bg-gray-50">
+      <h2 class="mb-4 text-2xl font-bold">Experience</h2>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold">Dicoding Indonesia</h3>
+        <p class="text-sm text-gray-700">Cloud Computing Cohort (Aug 2023 - Jan 2024)</p>
+        <ul class="pl-6 mt-2 space-y-1 list-disc">
+          <li>Proficient in managing and utilizing Google Cloud Platform (GCP).</li>
+          <li>Led a Capstone team and helped the Cloud Computing team build best practice resources.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold">Alterra Academy</h3>
+        <p class="text-sm text-gray-700">Mastering Golang Programming Engineer (Aug 2022 - Dec 2022)</p>
+        <ul class="pl-6 mt-2 space-y-1 list-disc">
+          <li>Algorithm and Data Structure</li>
+          <li>Database Management System</li>
+          <li>REST API</li>
+          <li>CI/CD Deployment</li>
+        </ul>
+      </div>
+    </section>
+    <!-- EXPERIENCE -->
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2 class="mb-4 text-2xl font-bold">Education</h2>
+      <div>
+        <h3 class="text-xl font-semibold">Mercu Buana University</h3>
+        <p class="text-sm text-gray-700">S1 - Computer Science (2020 - 2024)</p>
+        <p class="mt-2">Studied basic programming, data structures, and computer networking
+          technologies, participating twice on MSIB.</p>
+      </div>
+    </section>
+    <!-- EDUCATION -->
+
+    <!-- SKILLS -->
+    <section id="skills" class="p-6 rounded-lg shadow-md bg-gray-50 ">
+      <h2 class="mb-4 text-2xl font-bold">Skills</h2>
+      <ul class="pl-6 space-y-1 list-disc">
+        <li>HTML, CSS, JavaScript</li>
+        <li>Google Cloud Platform (GCP)</li>
+      </ul>
+    </section>
+    <!-- SKILLS -->
+  </main>
+  <!-- MAIN CONTENT -->
+
+  <!-- CONTACT FORM -->
+  <section id="contact" class="container px-4 py-12 mx-auto">
+    <div class="max-w-xl p-6 mx-auto bg-white rounded-lg shadow-md">
+      <h2 class="mb-6 text-3xl font-bold text-center">Contact Form</h2>
+      <form class="space-y-6">
+        <div class="flex flex-col">
+          <label for="email" class="text-lg">Email</label>
+          <input type="email" id="email" class="p-3 mt-2 border rounded-md" placeholder="my@email.com" required>
+        </div>
+        <div class="flex flex-col">
+          <label for="name" class="text-lg">Name</label>
+          <input type="text" id="name" class="p-3 mt-2 border rounded-md" placeholder="Your name" required>
+        </div>
+        <div class="flex flex-col">
+          <label for="message" class="text-lg">Message</label>
+          <textarea id="message" class="p-3 mt-2 border rounded-md" placeholder="Description here" rows="4"
+            required></textarea>
+        </div>
+        <div>
+          <h5 class="text-lg font-bold">Privacy</h5>
+          <p class="text-sm text-gray-500">Personal information will remain hidden and secured.</p>
+        </div>
+        <button class="w-full p-3 text-lg text-white rounded bg-slate-600 hover:bg-slate-900">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <!-- CONTACT FORM -->
+
+  <!-- FOOTER -->
+  <footer class="py-6 text-white bg-gray-800">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Faishal Makarim Kamali</p>
+    </div>
+  </footer>
+  <!-- FOOTER -->
+
 </body>
 
 </html>
