@@ -20,9 +20,9 @@
   </style>
 </head>
 
-<body>
+<body class="bg-slate-600">
   <!-- NAVBAR -->
-  <nav class="hidden text-white bg-gray-800 lg:block">
+  <nav class="hidden px-24 text-white bg-gray-800 lg:block">
     <div class="container flex items-center justify-between px-4 py-4 mx-auto">
       <div class="flex items-center gap-3">
         <div class="w-12 h-12 bg-white rounded-full">
@@ -34,6 +34,7 @@
         <li><a href="#experience" class="hover:underline">Experience</a></li>
         <li><a href="#education" class="hover:underline">Education</a></li>
         <li><a href="#skills" class="hover:underline">Skills</a></li>
+        <li><a href="#project" class="hover:underline">Project</a></li>
         <li><a href="#contact" class="hover:underline">Contact</a></li>
       </ul>
     </div>
@@ -42,7 +43,7 @@
 
   <!-- HEADER -->
   <header class="py-12 text-white bg-gray-800">
-    <div class="container flex items-center px-4 mx-auto">
+    <div class="container flex items-center px-4 mx-auto xl:px-28">
       <img src="./assets/img/pasfoto-removebg-preview-removebg-preview.png" alt="Profile Photo"
         class="w-32 h-32 mr-6 rounded-full">
       <div>
@@ -50,7 +51,7 @@
         <p class="mt-2 text-3xl">Software Engineer</p>
         <p class="mt-2 text-lg">Based in Bekasi, ID</p>
         <div class="flex flex-row gap-2">
-          <a href="www.linkedin.com/in/faishalmakarim">
+          <a href="https://www.linkedin.com/in/faishalmakarim/">
             <img src="./assets/icon/174857.png" class="w-6 mt-2 border border-gray-600" alt="">
           </a>
           <a href="#">
@@ -66,9 +67,9 @@
   <!-- HEADER -->
 
   <!-- MAIN CONTENT -->
-  <main class="container px-4 py-8 mx-auto space-y-8">
+  <main class="container px-4 py-8 mx-auto space-y-8 xl:px-28">
     <!-- SUMMARY -->
-    <section id="summary">
+    <section id="summary" class="text-white">
       <h2 class="mb-4 text-2xl font-bold">Summary</h2>
       <p class="text-justify">
         A web developer enthusiast with almost 1 year of experience. Experienced in designing and developing websites
@@ -90,15 +91,6 @@
     <section id="experience" class="p-6 rounded-lg shadow-md bg-gray-50">
       <h2 class="mb-4 text-2xl font-bold">Experience</h2>
 
-      <div class="mb-6">
-        <h3 class="text-xl font-semibold">Dicoding Indonesia</h3>
-        <p class="text-sm text-gray-700">Cloud Computing Cohort (Aug 2023 - Jan 2024)</p>
-        <ul class="pl-6 mt-2 space-y-1 list-disc">
-          <li>Proficient in managing and utilizing Google Cloud Platform (GCP).</li>
-          <li>Led a Capstone team and helped the Cloud Computing team build best practice resources.</li>
-        </ul>
-      </div>
-
       <div>
         <h3 class="text-xl font-semibold">Alterra Academy</h3>
         <p class="text-sm text-gray-700">Mastering Golang Programming Engineer (Aug 2022 - Dec 2022)</p>
@@ -109,15 +101,25 @@
           <li>CI/CD Deployment</li>
         </ul>
       </div>
+      <br>
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold">Dicoding Indonesia</h3>
+        <p class="text-sm text-gray-700">Cloud Computing Cohort (Aug 2023 - Jan 2024)</p>
+        <ul class="pl-6 mt-2 space-y-1 list-disc">
+          <li>Proficient in managing and utilizing Google Cloud Platform (GCP).</li>
+          <li>Led a Capstone team and helped the Cloud Computing team build best practice resources.</li>
+        </ul>
+      </div>
+
     </section>
     <!-- EXPERIENCE -->
 
     <!-- EDUCATION -->
-    <section id="education">
+    <section id="education" class="text-white">
       <h2 class="mb-4 text-2xl font-bold">Education</h2>
       <div>
         <h3 class="text-xl font-semibold">Mercu Buana University</h3>
-        <p class="text-sm text-gray-700">S1 - Computer Science (2020 - 2024)</p>
+        <p class="text-sm">S1 - Computer Science (2020 - 2024)</p>
         <p class="mt-2">Studied basic programming, data structures, and computer networking
           technologies, participating twice on MSIB.</p>
       </div>
@@ -125,7 +127,7 @@
     <!-- EDUCATION -->
 
     <!-- SKILLS -->
-    <section id="skills" class="p-6 rounded-lg shadow-md bg-gray-50 ">
+    <section id="skills" class="p-6 rounded-lg shadow-md bg-gray-50">
       <h2 class="mb-4 text-2xl font-bold">Skills</h2>
       <ul class="pl-6 space-y-1 list-disc">
         <li>HTML, CSS, JavaScript</li>
@@ -133,11 +135,62 @@
       </ul>
     </section>
     <!-- SKILLS -->
+
+    <!-- PROJECT -->
+    <section id="project" class="py-16 rounded-lg bg-slate-100 dark:bg-slate-800">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto mb-16 text-center">
+            <h2 class="mb-4 text-2xl font-bold text-white">Project</h2>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center w-full px-4 xl:mx-auto xl:w-10/12">
+          <div class="p-4 mb-12 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="./assets/img/istockphoto-1201794260-612x612.jpg" alt="" width="w-full" />
+            </div>
+            <h3 class="mt-5 mb-3 text-xl font-semibold text-white">Lorem, ipsum.</h3>
+            <p class="text-base font-medium text-white text-secondary">Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit.
+              Eius, iusto! Aliquam, corporis.</p>
+          </div>
+          <div class="p-4 mb-12 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="./assets/img/istockphoto-1201794260-612x612.jpg" alt="" width="w-full" />
+            </div>
+            <h3 class="mt-5 mb-3 text-xl font-semibold text-white">Lorem, ipsum.</h3>
+            <p class="text-base font-medium text-white text-secondary">Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit.
+              Eius, iusto! Aliquam, corporis.</p>
+          </div>
+          <div class="p-4 mb-12 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="./assets/img/istockphoto-1201794260-612x612.jpg" alt="" width="w-full" />
+            </div>
+            <h3 class="mt-5 mb-3 text-xl font-semibold text-white">Lorem, ipsum.</h3>
+            <p class="text-base font-medium text-white text-secondary">Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit.
+              Eius, iusto! Aliquam, corporis.</p>
+          </div>
+          <div class="p-4 mb-12 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="./assets/img/istockphoto-1201794260-612x612.jpg" alt="" width="w-full" />
+            </div>
+            <h3 class="mt-5 mb-3 text-xl font-semibold text-white">Lorem, ipsum.</h3>
+            <p class="text-base font-medium text-white text-secondary">Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit.
+              Eius, iusto! Aliquam, corporis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECT -->
   </main>
   <!-- MAIN CONTENT -->
 
   <!-- CONTACT FORM -->
-  <section id="contact" class="container px-4 py-12 mx-auto">
+  <section id="contact" class="container px-4 pb-12 mx-auto">
     <div class="max-w-xl p-6 mx-auto bg-white rounded-lg shadow-md">
       <h2 class="mb-6 text-3xl font-bold text-center">Contact Form</h2>
       <form class="space-y-6">
