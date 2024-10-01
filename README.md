@@ -1,5 +1,3 @@
-# Web Portfolio
-
 Welcome to my personal web portfolio! This project showcases my skills, experience, and projects as a front-end web developer.
 
 ## Features
